@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/veronchong02/Sat_P.git'
+                git branch: 'master', url: 'https://github.com/veronchong02/Sat_P'
             }
         }
         stage('Build') {
